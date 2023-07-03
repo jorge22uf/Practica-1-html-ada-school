@@ -4,72 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida Personal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Jorge Martinez</h1>
-        <img src="WhatsApp Image 2022-06-02 at 7.00.13 PM (1).jpeg" height="150px" width="150px">
-    <h2>Informacion Personal</h2>
-        <P><b>Email</b></P>
-        <p>jm3690264@gmail.com</p>
-        <p><b>Telefono</b></p>
-        <p>9575-4427</p>
-        <p><b>Direccion</b></p>
-        <p>Francisco Morazan,Tegucigalpa</p>
-        <P><b>linkedin</b></P>
-        <a href="https://www.linkedin.com/in/jorge-mart%C3%ADnez-a3677723b/">jorge-martínez-linkedin</a>
-        <p><b>HitHub</b></p>
-        <a href="https://github.com/jorge22uf">HitHubJorgeuf22</a>
-    <h2>Experiencia Profesional</h2>
-    <ol>Secretaria de Recursos Naturales y Ambiente/<b>Auxiliar de Auditoria</b>
-        <li>Responsable de brindar vigilancia y velar por el cumplimiento de las normas establecidas
-            por los entes contralores del Estado de Honduras.
-            </li>
-            <li>Participé en diversas auditorías a lo interno de la Institución a fin de evaluar los sistemas
-                de dirección, gestión y control interno; generando informes con recomendaciones para la
-                mejora de su rendimiento.
-                </li>
-    </ol>
-           
-    <ol>Hospital General de Especialidades "SAN FELIPE"/<b>Auxiliar de Estadísticas</b>
-        <li>Responsable de Llenado de formato de relación mensual con datos estadísticos
-            referentes a las consultas atendidas por las unidades de servicios médicos y sociales.
-            </li>
-            <li>Encargado de la ubicación y suministro de las historias médicas de los pacientes que
-                asisten a consultas.
-                </li>
-    </ol>
-    <h2>Habilidades Tecnicas</h2>
-        <table>
-            <tr>
-                <td>Microsoft Office</td>
-                <td>Habilidades Blandas</td>
-                <td>Habilidades Emocionales</td>
-            </tr>
-            <Tr>
-                <td>word</td>
-                <td>Trabajo en Equipo</td>
-                <td>Manejo de Ira</td>
-            </Tr>
-        </table>
-    <H2>Interes</H2>
-        <table>
-            <tr>
-                <td>Idiomas</td>
-                <td>Tecnologias</td>
-                <td>Lenguajes de Programacion</td>
-            </tr>
-            <tr>
-                <td>Ingles</td>
-                <td>Software</td>
-                <td>Python</td>
-            </tr>
-        </table><br>
-        <input type="email" placeholder="jm3690264@gmail.com" />
-        <button class="favorite styled"type="button"> Contactar
-        </button>
-
-        <br>
-        <textarea name="recomendaciones" rows="10" cols="40">Escribe aquí tus recomendaciones</textarea>
-
+    <div class="container">
+        <section>
+        <div class="img">
+            <img src="WhatsApp Image 2022-06-02 at 7.00.13 PM (1).jpeg" height="150px" width="150px">
+        </div>  
+            <div class="informacion">
+                <h2>Contacto</h2>
+                <div class="contenerinfo">   
+                    <P><b><ion-icon name="mail-outline"></ion-icon> Email:</b> jm3690264@gmail.com </P>
+                    <p><b><ion-icon name="call-outline"></ion-icon> Telefono:</b> 9575-4427</p>
+                    <p><b><ion-icon name="location-outline"></ion-icon> Direccion:</b> Francisco Morazan</p>
+                    <P><b><ion-icon name="logo-linkedin"></ion-icon> linkedin:</b> <a class="link" href="https://www.linkedin.com/in/jorge-mart%C3%ADnez-a3677723b/">jorge-martínez</a></P>
+                    <p><ion-icon name="logo-github"></ion-icon> <b>HitHub:</b> <a class="link" href="https://github.com/jorge22uf">HitHubJorgeuf22</a></p>
+                </div>
+                <br>
+                <h3 class="idion">Idiomas</h3>
+            </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width:100%;">
+                        <span class="progress-bar-text">100% Español</span>
+                    </div>
+                    <div class="progress-bar" style="width: 75%;">
+                        <span class="progress-bar-text">75% Ingles</span>
+                    </div>
+                    <h2 class="titulos">Habilidades Tecnicas</h2>
+                  <div class="tecnicas">
+                        <p><span>Tecnologia</span>80%</p>
+                        <div class="barra" style="--wth:80%"></div>
+                        <p><span>Software</span>80%</p><div class="barra" style="--wth:80%"></div>
+                        <p><span>Habilidades Blandas</span>80%</p><div class="barra" style="--wth:80%"></div>
+                        <p><span>Trabajo en Equipo</span>70%</p><div class="barra" style="--wth:70%"></div>
+                    </div>
+            </div>
+        </section>
+         <main>
+            <div class="titulo">
+                <h1>Jorge Martinez</h1>
+                <H2>Licenciatura en Derecho</H2> 
+            </div>
+            <div class="containerderecho">
+                <H2>Mi Perfil</H2><br>
+                    <p>Profesional con una excelente capacidad de organización, versátil y capaz de llevar a cabo varias tareas de manera simultánea, con gran capacidad para adaptarme a todo tipo de entornos y aportar siempre lo mejor de mí. Me caracterizo por mi facilidad para el trabajo en equipo y mi entusiasmo por aprender y desarrollar mis habilidades con dinamismo, proactividad y entusiasmo. En busca de una oportunidad laboral en la que pueda adquirir más experiencia. </p>
+                <h2>Experiencia Profesional</h2>
+                <ol>Secretaria de Recursos Naturales y Ambiente/<b>Auxiliar de Auditoria</b>
+                    <li>Responsable de brindar vigilancia y velar por el cumplimiento de las normas establecidas
+                        por los entes contralores del Estado de Honduras.
+                    </li>
+                    <li>Participé en diversas auditorías a lo interno de la Institución a fin de evaluar los sistemas
+                        de dirección, gestión y control interno; generando informes con recomendaciones para la
+                        mejora de su rendimiento.
+                    </li>
+                </ol>
+                <ol>Hospital General de Especialidades "SAN FELIPE"/<b>Auxiliar de Estadísticas</b>
+                    <li>Responsable de Llenado de formato de relación mensual con datos estadísticos
+                        referentes a las consultas atendidas por las unidades de servicios médicos y sociales.
+                    </li>
+                    <li>Encargado de la ubicación y suministro de las historias médicas de los pacientes que
+                        asisten a consultas.
+                    </li>
+                </ol>
+                <h2>Educacion Profesional</h2>
+                <ol><p class="date">2017/<br>2021</p> Universidad Nacional Autonoma de Honduras/<b>Licenciatura en Derecho</b>
+                </ol>
+                <ol><p class="date">2022/<br>2023</p>
+                    Universidad de Defensa de Honduras/<b>Diplomado en Derechos Humanos</b>
+                    </li>
+                    <ol><p class="date">2009/<br>2012</p>
+                        Instituto Alfonso Guillen Zelaya/<b>Perito Mercantil y Contador Publico</b>
+                        </li>
+                    </ol>
+                </ol>
+                <H2>Interes</H2>
+                <div class="table">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Idiomas</th>
+                        <th>Tecnologias</th>
+                        <th>Lenguajes de Programacion</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Aleman</td>
+                        <td>Inteligencia Artificial</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td>Francer</td>
+                        <td>Biotecnologia</td>
+                        <td>C++</td>
+                    </tr>
+                    <tr>
+                        <td>Italiano</td>
+                        <td>Realidad Virtual</td>
+                        <td>Ruby</td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+            </main>
+            </div> 
+        </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
